@@ -1,0 +1,87 @@
+:root {
+    --color-one: #f4f4f4;
+    --color-two: #f0a500;
+    --color-three: #cf7500;
+    --color-four: darkgray;
+    --color-five:#1a1c20;
+
+  }
+
+.navbar{
+background:var(--color-three);
+color:var(--color-one);
+height: 90px;
+
+}
+
+.container{
+    height: 100px;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar .logo{
+    width: 220px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 200px;
+}
+
+.navbar ul{
+    margin-top: 18px;
+    margin-right: 200px;
+    float:right;
+    text-transform: uppercase;
+    font-family:Montserrat,Arial,sans-serif;
+    font-weight: 560;
+}
+
+.navbar ul form{
+    float: right;
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.navbar ul .input{
+    float:right;
+    padding: 5px 0;
+    font-family:Montserrat,Arial,sans-serif;
+    border-radius: 3px;
+}
+
+.navbar ul i{
+    float: right;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: var(--color-five);
+}
+
+.navbar .current{
+    color: var(--color-one);
+}
+
+.navbar .logo{
+    float:left;
+    margin-left: 180px;
+  margin-top: 23px;
+  width: 50px;
+}
+
+.navbar h1{
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: var(--color-five);
+    margin-top: 22px;
+    margin-left: -180px;
+
+}
+.navbar h1 .sound{
+    color: var(--color-one);
+}
+
