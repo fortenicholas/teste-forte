@@ -102,7 +102,15 @@ a{
 	align-content: center;
    
 }
-
+.todos-cards button{
+   margin-top: 200px;
+   
+    border-radius: 5px;
+    background-color: var(--color-five);
+    color: var(--color-one);
+    padding: 4px 12px 4px 12px;
+   
+}
 .card{
     float: left;
     margin: 80px 0px 20px 30px;
@@ -112,12 +120,38 @@ a{
     border: var(--color-one) solid;
     border-radius: 8px;
     color: var(--color-one);
-    background-color: var(--color-two);
+    background-color: var(--color-three);
   
 }
 
 .footer{
     background: var(--color-five);
     height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    
+  
+    
 }
 
+.footer .foot-infos{
+    color: var(--color-one);
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.footer .redes{
+    padding-right: 200px;
+}
+
+.foot-infos form{
+    float:right;
+    padding-left: 200px;
+   
+}
