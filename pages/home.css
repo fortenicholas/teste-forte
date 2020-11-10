@@ -32,8 +32,7 @@
 .back-imgs{
     background-color: var(--color-two);
     background: url(../img/caleb-george-pH88tHG-1yw-unsplash.jpg) no-repeat scroll;
-    background-size:cover;
-    text-align: center;
+    background-size:100%;  
     margin:0;
     padding: 0;
     height: 700px;
@@ -86,6 +85,7 @@ a{
   height: 80vh;
    background-attachment: fixed;
    
+   
 
 }
 
@@ -126,7 +126,7 @@ a{
 
 .footer{
     background: var(--color-five);
-    height: 200px;
+    height: 160px;
     display: flex;
     align-items: center;
     justify-content: center;
